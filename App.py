@@ -5,3 +5,5 @@ def fetch_data(url):
     api_key = "12345-SUPER-SECRET-KEY"
     response = requests.get(f"{url}?key={api_key}")
     return response.json()
+
+#Cambio para probar el workflow de GitHub Actions
