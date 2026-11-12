@@ -6,4 +6,4 @@ def fetch_data(url):
     response = requests.get(f"{url}?key={api_key}")
     return response.json()
 
-#Cambio para probar el workflow de Github Actions
+#Cambio para probar el workflow de Actions
